@@ -1,0 +1,64 @@
+.custom-card {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 14px 0 gray;
+    background-color: #0C2240;
+    color: white;
+}
+
+.actions {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.btn-danger {
+    padding: 5px 10px;
+    margin: 0 2px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+}
+
+.btn-danger:hover {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-success {
+    padding: 5px 10px;
+    margin: 0 2px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    display: inline;
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+}
+
+.btn-success:hover {
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-card .fw-thin{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}

@@ -1,0 +1,53 @@
+td,
+th {
+    padding: 15px 30px !important;
+}
+
+table {
+    margin: 0;
+    margin-bottom: 0 !important;
+}
+
+.table-wrapper {
+    width: 100%;
+    margin-top: 50px !important;
+    border: 1px solid lightgray;
+    border-radius: 0;
+    padding: 0 !important;
+    box-shadow: 0 2px 14px 0 lightgray;
+}
+
+.table-custom th {
+    background-color: #f2f4f8 !important;
+}
+
+.expand {
+    width: 100%;
+}
+
+.label {
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+}
+
+.action-btns .btn {
+    background-color: #e7e9ef;
+    color: #51576d !important;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 5px;
+    width: auto;
+}
+
+.label-draft {
+    background-color: #777;
+}
+
+.label-live {
+    background-color: #42a942;
+}
+
+.label-error {
+    background-color: #d9534f;
+}

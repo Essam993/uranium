@@ -1,0 +1,17 @@
+img {
+    mix-blend-mode: multiply;
+}
+
+.col-md-6.bg-custom {
+    color: rgba(255, 255, 255, 0.541);
+    border-radius: 50px 0;
+}
+
+.bg-custom h1,
+.bg-custom h3 {
+    color: white;
+}
+
+.btn.btn-success {
+    border: none !important;
+}
